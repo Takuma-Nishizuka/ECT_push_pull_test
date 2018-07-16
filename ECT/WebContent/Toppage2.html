@@ -1,0 +1,64 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>トップページ</title>
+<head>
+
+<style type="text/css">
+
+img{
+	filter:alpha(opacity=50); 
+	-moz-opacity:0.6; 
+	-khtml-opacity: 0.5;  
+	opacity: 0.5;}
+ul{
+  	position:absolute;
+  	top:370px;
+  	left:450px;
+  	}
+div{
+		text-align:center;}
+button.button1{
+	display: inline-block;
+    padding: 15px 20px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+    background-color:#1874CD;
+    transition: .4s;
+    font-weight:bold;
+    width:300px;
+    font-size:2.5em;
+    position:absolute;
+    left:330px;
+    top:90px}
+button.button2{
+	display: inline-block;
+    padding: 15px 20px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+    background-color:#1874CD;
+    transition: .4s;
+    font-weight:bold;
+    width:300px;
+    font-size:2.5em;
+    position:absolute;
+    left:330px;
+    top:200px}
+</style>
+
+</head>
+<body>
+
+<div style="position: relative; width:1400px; height:500px;">
+<img src="https://images.pexels.com/photos/926987/pexels-photo-926987.jpeg?cs=srgb&dl=america-analysis-business-926987.jpg&fm=jpg"/>
+<span style="position: absolute; top:150px; left:750px;font-size:4em; color:#606060; font-weight:bold;">長谷川証券</span>
+<span style="position: absolute; top:290px; left:650px;font-size:2.8em; color:#606060;">ーオンライン・トレーディングー</span>
+<ul>
+<form action="MypageServlet" method="post"><button class="button1" type="submit">マイページへ</button></form>
+<br><br>
+<form action="LogoutServlet" method="post"><button class="button2" type="submit">ログアウト</button></form>
+</ul>
+</div>
+</body>
+</html>
