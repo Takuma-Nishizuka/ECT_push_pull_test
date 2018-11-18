@@ -115,6 +115,7 @@ img{
 		<th>注文種類</th>
 		<th>注文状態</th>
 		<th>受注状態</th>
+		<th>受注状態</th>
 	</tr>
 <c:forEach  var="order" items="${orderdto }">
 	<tr>
