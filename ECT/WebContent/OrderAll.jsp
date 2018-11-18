@@ -11,9 +11,9 @@
 <head>
 <style type="text/css">
 img{
-	filter:alpha(opacity=40); 
-	-moz-opacity:0.4; 
-	-khtml-opacity: 0.4;  
+	filter:alpha(opacity=40);
+	-moz-opacity:0.4;
+	-khtml-opacity: 0.4;
 	opacity: 0.4;}
 ul{
 		list-style-type:none;
@@ -68,7 +68,7 @@ h2.h21{
 		text-align:center;
 		font-size:1.8em;
 		color:#606060;}
-h2.h22{		
+h2.h22{
 		text-align:center;
 		font-size:1.8em;
 		color:#606060;}
@@ -114,6 +114,7 @@ img{
 		<th>注文日</th>
 		<th>注文種類</th>
 		<th>注文状態</th>
+		<th>受注状態</th>
 	</tr>
 <c:forEach  var="order" items="${orderdto }">
 	<tr>
@@ -128,7 +129,7 @@ img{
 		<td><c:if test="${order.orderState=='A'}">注文中</c:if>
 		<c:if test="${order.orderState=='B'}">実行完了</c:if>
 		<c:if test="${order.orderState=='C'}">キャンセル</c:if></td>
-		
+
 
 </tr>
 </c:forEach>
