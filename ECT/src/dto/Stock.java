@@ -46,6 +46,11 @@ public class Stock implements Serializable{
 	public void setStockClass(String stockClass) {
 		this.stockClass = stockClass;
 	}
+
+	
+	public void testClass(String stockClass) {
+		this.stockClass = stockClass;
+	}	
 	
 	
 
